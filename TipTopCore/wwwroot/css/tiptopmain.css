@@ -1,2 +1,11 @@
 body {
-  background-color: orange; }
+  background-color: #542621; }
+
+.navbar-tiptop {
+  background-color: #542621;
+  color: orange; }
+  .navbar-tiptop a {
+    color: orange; }
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: orange; }

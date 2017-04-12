@@ -1,8 +1,13 @@
-﻿'use strict';
+/// <binding ProjectOpened='watch-sass' />
+'use strict';
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
+var paths = {
+    webroot: "./wwwroot/"
+}
+paths.scss = paths.webroot + "css/**/*.scss";
 
 gulp.task("sass", function () {
     return gulp.src('wwwroot/css/sass/TipTopMain.scss')

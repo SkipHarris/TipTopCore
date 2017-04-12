@@ -1,3 +1,21 @@
-﻿body {
-    background-color: orange;
+﻿@import "_variables.scss";
+
+body {
+    background-color: $background-color;
 }
+
+.navbar-tiptop {
+    background-color: $background-color;
+    color: $text-color;
+
+    a {
+        color: orange;
+    }
+}
+
+
+//Bootstrap Override
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: $text-color;
+}
+
